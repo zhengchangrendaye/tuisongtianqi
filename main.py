@@ -190,7 +190,7 @@ def tip():
     if (Whether_tip!=False):
         try:
             conn = http.client.HTTPSConnection('api.tianapi.com')  #接口域名
-            params = urllib.parse.urlencode({'key':tianxing_API,'city':city})
+            params = urllib.parse.urlencode({'key':868a8c032e33443153151e024f8cee49,'city':city})
             headers = {'Content-type':'application/x-www-form-urlencoded'}
             conn.request('POST','/tianqi/index',params,headers)
             res = conn.getresponse()
